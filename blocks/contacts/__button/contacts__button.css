@@ -1,6 +1,6 @@
 .contacts__button {
   height: 42px;
-  width: 250px;
+  max-width: 250px;
   margin: 0 auto;
   color: #fff;
   font-size: 18px;
@@ -19,4 +19,17 @@
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   -moz-transition: all 1s ease;
+}
+
+@media screen and (max-width: 600px) {
+  .contacts__button {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .contacts__button {
+    font-size: 14px;
+    line-height: 18px;
+  }
 }

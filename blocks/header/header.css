@@ -2,6 +2,40 @@
   max-width: 940px;
   margin: 33px auto 40px auto;
   border-bottom: 1px solid #828282;
-  /* padding: 33px 0 33px 0; */
-  /* border: 1px red solid; */
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    max-width: 768px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .header {
+    max-width: 700px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header {
+    max-width: 500px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .header {
+    max-width: 425px;
+  }
+}
+/*burger**************/
+@media screen and (max-width: 460px) {
+  .header {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .header {
+  }
+}
+@media screen and (max-width: 320px) {
+  .header {
+  }
 }

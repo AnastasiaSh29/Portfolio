@@ -3,5 +3,35 @@
   margin: 0 auto;
   padding: 40px 0 0 0;
   border-top: 1px solid #828282;
-  /* border: 1px red solid; */
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    max-width: 768px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .footer {
+    max-width: 600px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer {
+    max-width: 425px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .footer {
+    padding: 20px 0 0 0;
+  }
+}
+@media screen and (max-width: 460px) {
+  .footer {
+    max-width: 375px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .footer {
+    max-width: 320px;
+  }
 }

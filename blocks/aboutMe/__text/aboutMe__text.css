@@ -10,3 +10,24 @@
 .aboutMe__text:last-of-type {
   margin: 0 auto;
 }
+
+@media screen and (max-width: 768px) {
+  .aboutMe__text {
+    max-width: 450px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .aboutMe__text {
+    max-width: 400px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .aboutMe__text {
+    max-width: 316px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .aboutMe__text {
+    max-width: 288px;
+  }
+}

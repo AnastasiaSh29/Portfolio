@@ -1,9 +1,11 @@
 .portfolio__link {
   margin-bottom: 100px;
   position: relative;
-}
-.portfolio__link:last-of-type {
-  margin-bottom: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  cursor: pointer;
 }
 
 .portfolio__link::before {
@@ -23,4 +25,10 @@
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   -moz-transition: all 1s ease;
+}
+
+@media screen and (max-width: 600px) {
+  .portfolio__link {
+    margin-bottom: 50px;
+  }
 }

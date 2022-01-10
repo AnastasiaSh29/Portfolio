@@ -1,3 +1,7 @@
 .portfolio__header {
   margin: 0 auto 42px auto;
+  font-size: 34px;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: center;
 }

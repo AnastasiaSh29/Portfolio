@@ -12,7 +12,7 @@
       <header class="header">
         <nav class="nav">
           <ul class="nav__links">
-            <li><a class="nav__link" href="#intro">Home</a></li>
+            <li><a class="nav__link" href="#intro">Day|Night</a></li>
             <li><a class="nav__link" href="#aboutMe">Обо мне</a></li>
             <li><a class="nav__link" href="#skills">Навыки</a></li>
             <li><a class="nav__link" href="#portfolio">Портфолио</a></li>
@@ -20,37 +20,19 @@
           </ul>
         </nav>
       </header>
+
       <main class="content">
         <section class="intro">
           <img class="intro__img" alt="Фото автора." src="/images/avtor.jpg" />
           <div class="intro__div">
             <h2 class="intro__name"><a name="intro">Анастасия Шилина</a></h2>
-
-            <p class="intro__prof">Фронтенд-разработчик</p>
-            <p class="intro__about">33 года Екатеринбург</p>
-            <p class="intro__tel">+201010827682</p>
+            <ul class="intro__links">
+              <li class="intro__link">Фронтенд-разработчик</li>
+              <li class="intro__link">33 года</li>
+              <li class="intro__link">Екатеринбург</li>
+              <li class="intro__link">+201010827682</li>
+            </ul>
           </div>
-
-          <ul class="intro__links">
-            <!-- <button
-              class="intro__link intro__link_ru intro__link_active theme-button"
-              type="button"
-            >
-              д
-            </button>
-            <button
-              class="intro__link intro__link_en theme-button"
-              type="button"
-            >
-              н
-            </button> -->
-            <li>
-              <a class="intro__link intro__link_ru intro__link_active" href="#"
-                >RU</a
-              >
-            </li>
-            <li><a class="intro__link intro__link_en" href="#">ENG</a></li>
-          </ul>
         </section>
 
         <section class="aboutMe">
@@ -70,6 +52,7 @@
             Готова реализовать отличные проекты с замечательными людьми.
           </p>
         </section>
+
         <section class="skills">
           <div>
             <h2 class="skills__header"><a name="skills">Навыки</a></h2>
@@ -93,53 +76,42 @@
           <h2 class="portfolio__header"><a name="portfolio">Портфолио</a></h2>
           <nav>
             <ul class="portfolio__links">
-              <li class="portfolio__link">
-                <img
-                  class="portfolio__img"
-                  alt="проект-1"
-                  src="./images/avtor2.jpg"
-                />
+              <li class="portfolio__link progect__one">
                 <a
                   class="portfolio__site"
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://github.com"
-                  >Статичный сайт
+                >
+                  <h2 class="portfolio__site-title">Статичный сайт</h2>
                 </a>
               </li>
 
-              <li class="portfolio__link">
-                <img
-                  class="portfolio__img"
-                  alt="проект-1"
-                  src="./images/avtor2.jpg"
-                />
+              <li class="portfolio__link progect__two">
                 <a
                   class="portfolio__site"
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://github.com"
-                  >Адаптивный сайт
+                  ><h2 class="portfolio__site-title">Адаптивный сайт</h2>
                 </a>
               </li>
 
-              <li class="portfolio__link">
-                <img
-                  class="portfolio__img"
-                  alt="проект-1"
-                  src="./images/avtor2.jpg"
-                />
+              <li class="portfolio__link progect__three">
                 <a
                   class="portfolio__site"
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://github.com"
-                  >Одностраничное приложение
+                  ><h2 class="portfolio__site-title">
+                    Одностраничное приложение
+                  </h2>
                 </a>
               </li>
             </ul>
           </nav>
         </section>
+
         <section class="contacts">
           <h2 class="contacts__header"><a name="contacts">Контакты</a></h2>
           <p class="contacts__text">
@@ -157,3 +129,16 @@
     </div>
   </body>
 </html>
+
+<!-- <button
+              class="intro__link intro__link_ru intro__link_active theme-button"
+              type="button"
+            >
+              д
+            </button>
+            <button
+              class="intro__link intro__link_en theme-button"
+              type="button"
+            >
+              н
+            </button> -->

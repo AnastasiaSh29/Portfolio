@@ -2,5 +2,43 @@
   max-width: 940px;
   margin: 0 auto;
   padding: 80px 0 40px 0;
-  /* border: 1px red solid; */
+}
+
+@media screen and (max-width: 1024px) {
+  .contacts {
+    max-width: 768px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .contacts {
+    max-width: 700px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .contacts {
+    max-width: 500px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .contacts {
+    max-width: 425px;
+    padding: 40px 0;
+  }
+}
+/***************/
+@media screen and (max-width: 425px) {
+  .contacts {
+    max-width: 375px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .contacts {
+    max-width: 375px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .contacts {
+    max-width: 288px;
+  }
 }

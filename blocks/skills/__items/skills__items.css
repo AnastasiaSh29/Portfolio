@@ -5,3 +5,18 @@
   margin: 0;
   padding: 0;
 }
+
+@media screen and (max-width: 600px) {
+  .skills__items {
+    flex-wrap: wrap;
+    max-width: 282px;
+    margin: 0 auto 70px auto;
+  }
+}
+@media screen and (max-width: 320px) {
+  .skills__items {
+    flex-wrap: wrap;
+    max-width: 188px;
+    margin: 0 auto 70px auto;
+  }
+}

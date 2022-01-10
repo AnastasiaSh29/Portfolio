@@ -6,6 +6,37 @@
   background-color: #f6f6f6;
   max-width: 940px;
   margin: 0 auto;
-  padding: 100px 0;
-  /* border: 1px red solid; */
+  padding: 100px 0 1px 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .portfolio {
+    max-width: 768px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .portfolio {
+    max-width: 700px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .portfolio {
+    max-width: 500px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .portfolio {
+    max-width: 425px;
+    padding: 50px 0 1px 0;
+  }
+}
+@media screen and (max-width: 460px) {
+  .portfolio {
+    max-width: 375px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .portfolio {
+    max-width: 320px;
+  }
 }

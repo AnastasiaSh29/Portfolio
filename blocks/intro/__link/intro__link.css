@@ -1,14 +1,35 @@
 .intro__link {
   text-decoration: none;
-  color: #828282;
-
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 18px;
+  line-height: 22px;
   letter-spacing: 0em;
   text-align: left;
+  margin: 0;
 }
 
-/* .intro__link:first-of-type {
-  padding-bottom: 5px;
-  border-bottom: 1px solid #070707;
-} */
+.intro__link:first-of-type {
+  margin-bottom: 10px;
+}
+.intro__link:last-of-type {
+  margin-top: 10px;
+}
+@media screen and (max-width: 768px) {
+  .intro__link {
+    text-align: right;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .intro__link {
+    text-align: left;
+  }
+}
+@media screen and (max-width: 375px) {
+  .intro__link {
+    max-width: 316px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .intro__link {
+  }
+}

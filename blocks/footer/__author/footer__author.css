@@ -10,17 +10,10 @@
   margin: 0 auto 40px auto;
   max-width: 318px;
 }
-/* 
-@media screen and (max-width: 390px) {
-    .footer__author {
-        max-width: 282px;
-        margin: 0 auto;
-    }
-}
 
-@media screen and (max-width: 320px) {
-    .footer__author {
-        font-size: 14px;
-        line-height: 17px;
-    }
-} */
+@media screen and (max-width: 600px) {
+  .footer__author {
+    margin: 0 auto 20px auto;
+    max-width: 300px;
+  }
+}

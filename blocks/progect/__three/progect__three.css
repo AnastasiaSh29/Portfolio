@@ -1,0 +1,10 @@
+.progect__three {
+  background-image: url(../../../images/avtor2.jpg);
+}
+
+.progect__three::after {
+  content: '';
+  width: 0;
+  height: 0;
+  padding-top: calc(437 / 940 * 100%);
+}
