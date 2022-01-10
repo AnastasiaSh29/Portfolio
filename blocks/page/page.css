@@ -1,0 +1,9 @@
+.page {
+  min-height: 100%;
+  min-width: 316px;
+  max-width: 1445px;
+  margin: 0 auto;
+  color: #070707;
+  font-family: 'Gilroy', 'Helvetica Neue', 'Arial', sans-serif;
+  position: relative;
+}

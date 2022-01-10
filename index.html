@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./pages/style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <nav class="nav">
+          <ul class="nav__links">
+            <li><a class="nav__link" href="#intro">Home</a></li>
+            <li><a class="nav__link" href="#aboutMe">Обо мне</a></li>
+            <li><a class="nav__link" href="#skills">Навыки</a></li>
+            <li><a class="nav__link" href="#portfolio">Портфолио</a></li>
+            <li><a class="nav__link" href="#contacts">Контакты</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main class="content">
+        <section class="intro">
+          <img class="intro__img" alt="Фото автора." src="/images/avtor.jpg" />
+          <div class="intro__div">
+            <h2 class="intro__name"><a name="intro">Анастасия Шилина</a></h2>
+
+            <p class="intro__prof">Фронтенд-разработчик</p>
+            <p class="intro__about">33 года Екатеринбург</p>
+            <p class="intro__tel">+201010827682</p>
+          </div>
+
+          <ul class="intro__links">
+            <!-- <button
+              class="intro__link intro__link_ru intro__link_active theme-button"
+              type="button"
+            >
+              д
+            </button>
+            <button
+              class="intro__link intro__link_en theme-button"
+              type="button"
+            >
+              н
+            </button> -->
+            <li>
+              <a class="intro__link intro__link_ru intro__link_active" href="#"
+                >RU</a
+              >
+            </li>
+            <li><a class="intro__link intro__link_en" href="#">ENG</a></li>
+          </ul>
+        </section>
+
+        <section class="aboutMe">
+          <h2 class="aboutMe__header"><a name="aboutMe">Обо мне</a></h2>
+          <p class="aboutMe__text">
+            Привет, я Анастасия
+            <br />
+            Frontend разработчик из Екатеринбурга. Интересуюсь веб-разработкой м
+            и всем, что с этим связано.
+          </p>
+
+          <p class="aboutMe__text">
+            Прошла курсы «Веб разработки» в Яндекс.Практикум.
+          </p>
+
+          <p class="aboutMe__text">
+            Готова реализовать отличные проекты с замечательными людьми.
+          </p>
+        </section>
+        <section class="skills">
+          <div>
+            <h2 class="skills__header"><a name="skills">Навыки</a></h2>
+            <p class="skills__text">
+              Освоенные мной технологии, которые применялись в учебных,
+              дипломном и в pet проектах.
+            </p>
+          </div>
+          <ul class="skills__items">
+            <li class="skills__item">HTML</li>
+            <li class="skills__item">CSS</li>
+            <li class="skills__item">JS</li>
+            <li class="skills__item">React</li>
+            <li class="skills__item">Git</li>
+            <li class="skills__item">Express.js</li>
+            <li class="skills__item">mongoDB</li>
+          </ul>
+        </section>
+
+        <section class="portfolio">
+          <h2 class="portfolio__header"><a name="portfolio">Портфолио</a></h2>
+          <nav>
+            <ul class="portfolio__links">
+              <li class="portfolio__link">
+                <img
+                  class="portfolio__img"
+                  alt="проект-1"
+                  src="./images/avtor2.jpg"
+                />
+                <a
+                  class="portfolio__site"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com"
+                  >Статичный сайт
+                </a>
+              </li>
+
+              <li class="portfolio__link">
+                <img
+                  class="portfolio__img"
+                  alt="проект-1"
+                  src="./images/avtor2.jpg"
+                />
+                <a
+                  class="portfolio__site"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com"
+                  >Адаптивный сайт
+                </a>
+              </li>
+
+              <li class="portfolio__link">
+                <img
+                  class="portfolio__img"
+                  alt="проект-1"
+                  src="./images/avtor2.jpg"
+                />
+                <a
+                  class="portfolio__site"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com"
+                  >Одностраничное приложение
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </section>
+        <section class="contacts">
+          <h2 class="contacts__header"><a name="contacts">Контакты</a></h2>
+          <p class="contacts__text">
+            Хотите узнать больше или просто поболтать?
+          </p>
+          <button class="contacts__button" type="submit">
+            Отправить сообщение
+          </button>
+        </section>
+      </main>
+      <footer class="footer">
+        <p class="footer__author">&copy;2022.Anastasia Shilina</p>
+        <a href="#" title="Вернуться к началу" class="topbutton">^Наверх</a>
+      </footer>
+    </div>
+  </body>
+</html>

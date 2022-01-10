@@ -1,0 +1,11 @@
+.nav__link {
+  /* color: #070707;  ПРИ Активном состоянии*/
+  text-decoration: none;
+  color: #828282;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0em;
+}
+.nav__link:hover {
+  opacity: 0.5;
+}

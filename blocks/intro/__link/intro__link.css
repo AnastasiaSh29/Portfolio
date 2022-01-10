@@ -1,0 +1,14 @@
+.intro__link {
+  text-decoration: none;
+  color: #828282;
+
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+/* .intro__link:first-of-type {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #070707;
+} */

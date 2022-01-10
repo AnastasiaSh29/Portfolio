@@ -1,0 +1,11 @@
+.portfolio {
+  font-size: 34px;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: center;
+  background-color: #f6f6f6;
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 100px 0;
+  /* border: 1px red solid; */
+}
