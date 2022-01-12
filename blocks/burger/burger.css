@@ -1,0 +1,18 @@
+.burger {
+  display: flex;
+  max-width: 460px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+@media screen and (min-width: 460px) {
+  .burger {
+    display: none;
+  }
+}
