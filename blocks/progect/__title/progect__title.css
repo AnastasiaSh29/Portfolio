@@ -1,22 +1,23 @@
-.portfolio__site-title {
+.progect__title {
   font-size: 50px;
   line-height: 22px;
   letter-spacing: 0em;
   text-align: center;
 }
+
 @media screen and (max-width: 850px) {
-  .portfolio__site-title {
+  .progect__title {
     font-size: 40px;
   }
 }
 @media screen and (max-width: 768px) {
-  .portfolio__site-title {
+  .progect__title {
     font-size: 30px;
   }
 }
 
 @media screen and (max-width: 425px) {
-  .portfolio__site-title {
+  .progect__title {
     font-size: 20px;
   }
 }
